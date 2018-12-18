@@ -1,29 +1,25 @@
-import './config/Reactotronconfig';
-import './config/DevToolsConfig';
+import "./config/Reactotronconfig";
+import "./config/DevToolsConfig";
 
-import React, { Component } from 'react';
-import { StyleSheet, View, ScrollView } from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet, Text } from "react-native";
 
-const bgColor = '#FFFFFF';
+import Routes from "./routes";
+
+const bgColor = "#FFFFFF";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: bgColor,
-  },
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: bgColor
+  }
 });
 
 export default class App extends Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <ScrollView>
-         <Text>Alguma coisa</Text>
-        </ScrollView>
-      </View>
-    );
+    return <Routes />;
   }
 }

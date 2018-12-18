@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/carlosviana/Documents/dev/ReactNativePrep/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
+            "outputFile": "/home/carlosviana/Documents/dev/GoNativeMod2/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/home/carlosviana/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/62e04769ac74dbc0be4ef9c9c9f6c79f/res/values-mk/values-mk.xml",
